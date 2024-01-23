@@ -3,7 +3,7 @@ import { getBackendUrl } from "../config";
 
 const api = axios.create({
 	baseURL: getBackendUrl(),
-	withCredentials: false,
+	withCredentials: true,
 });
 
 export default api;
